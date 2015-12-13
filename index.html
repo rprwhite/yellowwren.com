@@ -16,23 +16,33 @@
   </script>
   <style>
     body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      margin: 0;
+      padding: 0;
       background-color: #FFEA1D;
       color: #313131;
       font-size: 125%;
     }
     h1, p {
-      position: relative;
       width: 100vw;
       text-align: center;
       margin: auto;
     }
+    .container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
-  <h1 class="tk-old-standard">Yellow Wren</h1>
-  <p class="tk-old-standard">A small team dedicated to making your winery's online presence extraordinary.<br>All the details coming soon.</p>
+  <div class="container">
+    <h1 class="tk-old-standard">Yellow Wren</h1>
+    <p class="tk-old-standard">A small team dedicated to making your winery's online presence extraordinary.<br>All the details coming soon.</p>
+  </div>
 </body>
 </html>
